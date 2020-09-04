@@ -1,0 +1,17 @@
+import React, {Component} from "react";
+import "./Header.scss";
+import HeaderLogo from "./HeaderLogo.jsx"
+import HeaderMenu from "./HeaderMenu.jsx"
+
+class Header extends Component{
+    render(){
+        return(
+            <header className="header">
+                <HeaderLogo src="data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 24.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 280.91 280.96' style='enable-background:new 0 0 280.91 280.96;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:none;stroke:%23000000;stroke-miterlimit:10;%7D .st1%7Bfill:none;stroke:%23000000;stroke-width:4;stroke-miterlimit:10;%7D .st2%7Bfont-family:'Impact';%7D .st3%7Bfont-size:76.1895px;%7D .st4%7Bdisplay:none;%7D .st5%7Bfill:none;stroke:%23019939;stroke-width:2;stroke-miterlimit:10;%7D .st6%7Bfill:none;stroke:%233299CC;stroke-width:2;stroke-miterlimit:10;%7D .st7%7Bfill:none;stroke:%23F49819;stroke-width:2;stroke-miterlimit:10;%7D .st8%7Bfill:none;stroke:%23000000;stroke-width:2;stroke-miterlimit:10;%7D .st9%7Bfill:none;stroke:%23CD3333;stroke-width:2;stroke-miterlimit:10;%7D .st10%7Bopacity:0.85;fill:%23E6332A;%7D .st11%7Bfill:none;stroke:%23FFFFFF;stroke-width:2;stroke-miterlimit:10;%7D .st12%7Bfill:none;stroke:%23009FE3;stroke-miterlimit:10;%7D .st13%7Bfill:none;stroke:%23E30613;stroke-miterlimit:10;%7D .st14%7Bfill:none;stroke:%23009640;stroke-miterlimit:10;%7D .st15%7Bfill:none;stroke:%23F39200;stroke-miterlimit:10;%7D .st16%7Bfill:none;stroke:%23E6007E;stroke-miterlimit:10;%7D .st17%7Bfill:none;%7D .st18%7Bfill:none;stroke:%23000000;stroke-width:0.1;stroke-miterlimit:10;%7D .st19%7Bfill:none;stroke:%23000000;stroke-width:0.25;stroke-miterlimit:10;%7D .st20%7Bfill:none;stroke:%23E30613;stroke-width:2;stroke-miterlimit:10;%7D .st21%7Bfill:none;stroke:%23FFFFFF;stroke-width:4;stroke-miterlimit:10;%7D .st22%7Bfill:none;stroke:%23009FE3;stroke-width:2;stroke-miterlimit:10;%7D .st23%7Bfill:none;stroke:%23009640;stroke-width:2;stroke-miterlimit:10;%7D .st24%7Bfill:none;stroke:%23F39200;stroke-width:2;stroke-miterlimit:10;%7D .st25%7Bfill:none;stroke:%23E6007E;stroke-width:2;stroke-miterlimit:10;%7D .st26%7Bfill:none;stroke:%23E30613;stroke-width:3;stroke-miterlimit:10;%7D .st27%7Bdisplay:none;fill:none;stroke:%23000000;stroke-width:4;stroke-miterlimit:10;%7D%0A%3C/style%3E%3Cg id='work'%3E%3Cg id='controller-pic'%3E%3C/g%3E%3Cg id='logo'%3E%3Ctext transform='matrix(1 0 0 1 69.2685 253.6635)' class='st2 st3'%3Eiodum%3C/text%3E%3Crect x='3.74' y='3.72' class='st1' width='274' height='274'/%3E%3C/g%3E%3Cg id='md_orig' class='st4'%3E%3C/g%3E%3C/g%3E%3Cg id='banner_vk'%3E%3C/g%3E%3Cg id='print'%3E%3Cg id='p-front'%3E%3C/g%3E%3Cg id='p-left'%3E%3C/g%3E%3Cg id='p-right'%3E%3C/g%3E%3Cg id='p-top'%3E%3C/g%3E%3Cg id='p-back'%3E%3C/g%3E%3C/g%3E%3Cg id='bottom'%3E%3C/g%3E%3Cg id='front'%3E%3Cg id='front_titles'%3E%3Cg id='header'%3E%3C/g%3E%3C/g%3E%3Cg id='controllers-bg'%3E%3C/g%3E%3C/g%3E%3Cg id='back'%3E%3Cg id='back_titles'%3E%3C/g%3E%3Cg id='table'%3E%3C/g%3E%3C/g%3E%3Cg id='left'%3E%3C/g%3E%3Cg id='right'%3E%3C/g%3E%3Cg id='top'%3E%3C/g%3E%3C/svg%3E%0A" />
+                <HeaderMenu />
+            </header>
+        )
+    }
+}
+
+export default Header;

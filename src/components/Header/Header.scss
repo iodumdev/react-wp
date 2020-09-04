@@ -1,0 +1,36 @@
+$logo-with: 135px;
+
+.header{
+    padding: 20px 25px;
+    display: flex;
+    &__logo{
+        color: #000;
+        &-title{
+            text-align: center;
+            display: block;
+        }
+        a{
+            display: inline-flex;
+            flex-direction: column;
+            img{
+                width: $logo-with;
+                margin-bottom: 2px;
+            }
+        }
+    }
+    &__menu{
+        display: flex;
+        padding: 0 30px;
+        align-items: center;
+        margin: auto;
+        ul{
+            display: flex;
+            li{
+                margin: 0 20px 0 0;
+                &:last-child{
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
